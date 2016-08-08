@@ -1,0 +1,115 @@
+/*Core*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    background: #f1f1f1 url("../images/body-bg.png");
+
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #222;
+    border-top: 1px solid #080808;
+}
+/*End core*/
+
+.form-control:focus{
+    border-color: #5cb85c;
+}
+
+/* Navbar brand */
+.navbar .navbar-brand{
+    padding-top: 3px;
+}
+
+.navbar .navbar-brand strong{
+    font-weight: bold;
+    padding-right: 3px;
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+/*Header*/
+header{
+    background: #3e4249 url("../images/header-bg.png");
+    color: #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #080808;
+}
+
+/* Right Sidebar*/
+.create-resto, .restos{
+    border: 1px solid #eae9e9;
+}
+
+.restos-grp{
+    margin-bottom: 0px;
+}
+
+.list-group-item:hover{
+    background: #eeeeee;
+    cursor: pointer;
+}
+
+.list-group-item{
+    border: none;
+}
+
+.list-group-item.resto-teaser{
+    margin-top: 0px;
+}
+
+.create-resto{
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+#create-resto-form{
+    margin-top: 10px;
+}
+
+.resto-teaser{
+    padding-bottom: 0px;
+}
+
+.resto-details-btn{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+/*Rating*/
+.rating-symbol{
+    color: #5cb85c;
+}
+.rate-email{
+    width: 50%;
+}
+
+/*Resto Main*/
+.resto-main-details{
+    padding: 0px 15px 10px 15px;
+}
+
+.resto-main-details > .media > .media-right{
+    width: 100%;
+}
+
+.resto-main-name{
+    font-size: 30px;
+}
+.dish-overall-rate{
+    position: absolute;
+    right: 15px;
+}
